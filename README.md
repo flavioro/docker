@@ -11,3 +11,6 @@
 
 ** Image with better security https://github.com/bitnami/bitnami-docker-postgresql
 - docker run -d --name postgres -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PASSWORD=6153d0f22a30ad12f9963c0a081c6351 -e POSTGRESQL_DATABASE=archshop -p 5432:5432 bitnami/postgresql:latest
+
+Always restart container docker
+docker update --restart=unless=stopped container_id
