@@ -6,6 +6,8 @@
 
 - docker run --name mongodb -p 27017:27017 -d -t mongo
 
+- docker run --name redisdb -p 6379:6379 -d -t redis:alpine
+
 **interface gráfica mongodb compass community**
 - login: mongodb://localhost:27017
 
