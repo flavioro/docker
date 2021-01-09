@@ -16,3 +16,6 @@
 
 Always restart container docker
 docker update --restart=unless-stopped container_id
+
+**L I N U X - Ubuntu**
+ - docker container run -it ubuntu /bin/bash
