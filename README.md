@@ -11,6 +11,9 @@
 ** Run container and release typing use -d**
 - docker container -d ngnix 
 
+** Access container after create, use:**
+- docker container exec -it id-Container /bin/bash
+
 **interface gráfica mongodb compass community**
 - login: mongodb://localhost:27017
 
