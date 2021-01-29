@@ -8,6 +8,9 @@
 
 - docker run --name redisdb -p 6379:6379 -d -t redis:alpine
 
+** Run container and release typing use -d**
+- docker container -d ngnix 
+
 **interface gráfica mongodb compass community**
 - login: mongodb://localhost:27017
 
