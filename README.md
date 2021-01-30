@@ -12,13 +12,13 @@ docker push flavioro/temperature-conversion:v1
 ```
 
 - List all images
-*docker image ls*
+```docker image ls```
 
 - Remove container
-*docker container rm id-container*
+```docker container rm id-container```
 
 - Remove image (different of container)
-*docker rmi id-container*
+```docker rmi id-container```
 
 
 - Remove container, even though it's running -f
