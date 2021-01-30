@@ -2,6 +2,9 @@
 
 **Commands docker**
 
+- Remove container, even though it's running -f
+*docker container rm -f id-container*
+
 - docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 
 - docker run --name mongodb -p 27017:27017 -d -t mongo
@@ -26,5 +29,4 @@ docker update --restart=unless-stopped container_id
 **L I N U X - Ubuntu**
  - docker container run -it ubuntu /bin/bash
 
-- Remove container
-*docker container rm -f id-container*
+
