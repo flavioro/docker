@@ -10,6 +10,8 @@
 docker login  
 docker push flavioro/temperature-conversion:v1
 ```
+- Create container basead tag existent
+```docker tag flavioro/temperature-conversion:v1 flavioro/temperature-conversion:latest```
 
 - List all images
 ```docker image ls```
