@@ -8,8 +8,6 @@
 - Upload container net
 ```
 docker login  
-```
-```
 docker push flavioro/temperature-conversion:v1
 ```
 
