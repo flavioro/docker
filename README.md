@@ -2,6 +2,13 @@
 
 **Commands docker**
 
+- List all images
+*docker image ls*
+
+- Remove image (different of container)
+*docker rmi id-container*
+
+
 - Remove container, even though it's running -f
 *docker container rm -f id-container*
 
