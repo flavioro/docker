@@ -2,6 +2,13 @@
 
 **Commands docker**
 
+- Create container local
+*docker build -t flavioro/temperature-conversion:v1 . *
+
+- Upload container net
+*docker login*
+*docker push flavioro/temperature-conversion:v1*
+
 - List all images
 *docker image ls*
 
