@@ -24,6 +24,7 @@ docker push flavioro/temperature-conversion:v1
 - Remove container, even though it's running -f
 ```docker container rm -f id-container```
 
+- Download postgres with password docker in port 5432:5432
 ``` docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres```
 
 ``` docker run --name mongodb -p 27017:27017 -d -t mongo```
