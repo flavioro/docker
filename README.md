@@ -2,7 +2,7 @@
 
 **Commands docker**
 
-- Create container local
+- Create container local, flavioro is name in hub.docker.com
 ```docker build -t flavioro/temperature-conversion:v1 . ```
 
 - Upload container net
