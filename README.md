@@ -5,6 +5,9 @@
 - List all images
 *docker image ls*
 
+- Remove container
+*docker container rm id-container*
+
 - Remove image (different of container)
 *docker rmi id-container*
 
