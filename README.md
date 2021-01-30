@@ -3,7 +3,7 @@
 **Commands docker**
 
 - Create container local
-*docker build -t flavioro/temperature-conversion:v1 . *
+```docker build -t flavioro/temperature-conversion:v1 . ```
 
 - Upload container net
 ```
@@ -22,30 +22,28 @@ docker push flavioro/temperature-conversion:v1
 
 
 - Remove container, even though it's running -f
-*docker container rm -f id-container*
+```docker container rm -f id-container```
 
-- docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+``` docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres```
 
-- docker run --name mongodb -p 27017:27017 -d -t mongo
+``` docker run --name mongodb -p 27017:27017 -d -t mongo```
 
-- docker run --name redisdb -p 6379:6379 -d -t redis:alpine
+``` docker run --name redisdb -p 6379:6379 -d -t redis:alpine```
 
 ** Run container and release typing use -d**
-- docker container -d ngnix 
+``` docker container -d ngnix ```
 
 ** Access container after create, use:**
-- docker container exec -it id-Container /bin/bash
+``` docker container exec -it id-Container /bin/bash```
 
 **interface gráfica mongodb compass community**
-- login: mongodb://localhost:27017
+``` login: mongodb://localhost:27017```
 
 ** Image with better security https://github.com/bitnami/bitnami-docker-postgresql
-- docker run -d --name postgres -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PASSWORD=6153d0f22a30ad12f9963c0a081c6351 -e POSTGRESQL_DATABASE=archshop -p 5432:5432 bitnami/postgresql:latest
+``` docker run -d --name postgres -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PASSWORD=6153d0f22a30ad12f9963c0a081c6351 -e POSTGRESQL_DATABASE=archshop -p 5432:5432 bitnami/postgresql:latest```
 
 Always restart container docker
-docker update --restart=unless-stopped container_id
+```docker update --restart=unless-stopped container_id```
 
 **L I N U X - Ubuntu**
- - docker container run -it ubuntu /bin/bash
-
-
+ ``` docker container run -it ubuntu /bin/bash```
