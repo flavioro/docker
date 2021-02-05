@@ -50,3 +50,19 @@ Always restart container docker
 
 **L I N U X - Ubuntu**
  ``` docker container run -it ubuntu /bin/bash```
+
+**L I N U X - Centos Update docker**
+ ``` 
+ yum update docker
+ yum install docker-ce docker-ce-cli containerd.io
+ ```
+ 
+ **L I N U X - Version Docker**
+ ``` 
+systemctl status docker
+ ```
+ 
+ **L I N U X - Restart service docker**
+ ``` 
+ systemctl restart docker
+ ``` 
