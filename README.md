@@ -2,6 +2,16 @@
 
 **Commands docker**
 
+## ADMINISTRATION CONTAINERS
+```
+docker container delete
+docker container stop
+docker container start
+Docker container stats
+docker run -it ubuntu /bin/bash
+docker run -p 8080:80 -d nginx
+```
+
 - Create container local, flavioro is name in hub.docker.com
 ```docker build -t flavioro/temperature-conversion:v1 . ```
 
