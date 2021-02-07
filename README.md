@@ -1,34 +1,42 @@
 # D O C K E R - ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png)
 
 * Dicionary
-<strong>FROM</strong><p>
-Inicializa o build de uma imagem a partir
-de uma imagem base
-RUN
+<p><strong>FROM</strong><p>
+Inicializa o build de uma imagem a partir de uma imagem base
+
+<p><strong>RUN</strong><p>
 Executa um comando
-LABEL
+
+<p><strong>LABEL</strong><p>
 Adiciona metadados a imagem
-CMD
+
+<p><strong>CMD</strong><p>
 Define o comando e/ou os parâmetros padrão
-EXPOSE
+
+<p><strong>EXPOSE</strong><p>
 Define que o container precisa expor a porta
 em questão
-ENV
+
+<p><strong>ENV</strong><p>
 Define variáveis de ambiente
-ADD
+
+<p><strong>ADD</strong><p>
 Copia arquivos ou diretórios ou arquivos remotos
 e adiciona ao sistema de arquivos da imagem
-COPY
+
+<p><strong>COPY</strong><p>
 Copia arquivos ou diretórios e adiciona ao
 sistema de arquivos da imagem
-ENTRYPOINT
+
+<p><strong>ENTRYPOINT</strong><p>
 Ajuda você a configurar um contêiner que
 pode ser executado como um executável
-VOLUME
-Define volumes que devem ser definidos
-WORKDIR
-Define o seu diretório corrente
 
+<p><strong>VOLUME</strong><p>
+Define volumes que devem ser definidos
+
+<p><strong>WORKDIR</strong><p>
+Define o seu diretório corrente
 
 ## COMMANDS TO WORK WITH IMAGES DOCKER
 * Baixa a imagem para a máquina local
