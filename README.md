@@ -134,3 +134,7 @@ systemctl status docker
  systemctl restart docker
  ``` 
 
+* Image original postgres
+``` 
+docker run --name postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=archshop -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+``` 
