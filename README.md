@@ -1,8 +1,13 @@
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-# D O C K E R - <img src="https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png" alt="Forest" width="150">
+# D O C K E R - 
+
+img[alt$="><"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float: none!important;
+}
+<img src="https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png" alt="Forest" width="150">
 
 
 ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png)
