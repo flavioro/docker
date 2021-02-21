@@ -70,6 +70,8 @@ docker run -it ubuntu /bin/bash
 docker run -p 8080:80 -d nginx
 ```
 
+![](http://www.markbuckler.com/img/docker_high_level.png)
+
 - Create container local, flavioro is name in hub.docker.com
 ```docker build -t flavioro/temperature-conversion:v1 . ```
 
