@@ -6,6 +6,8 @@
     background-size: 200px 280px;"
 align="left">
 
+<img src="https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png" alt="Forest" width="170" height="100">
+
 # D O C K E R - ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png)
 
 
