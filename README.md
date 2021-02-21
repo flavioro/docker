@@ -1,8 +1,10 @@
+```css
 <style>
 img {
   opacity: 0.5;
 }
 </style>
+```
 
 <img src="https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png" alt="Forest" width="170" height="100">
 
