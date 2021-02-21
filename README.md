@@ -1,3 +1,7 @@
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 # D O C K E R - <img src="https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png" alt="Forest" width="150">
 
 
