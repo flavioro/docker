@@ -57,6 +57,7 @@ docker build -t <NOME_IMAGEM> -f <PATH_DO_ARQUIVO> PATH
 * Altera a tag de uma imagem
 ```
 docker tag <NOME_IMAGEM> <NOVO_NOME_IMAGEM>
+docker tag flavioro/temperature-conversion:v1 flavioro/temperature-conversion:lasted
 ```
 
 ## ADMINISTRATION CONTAINERS
