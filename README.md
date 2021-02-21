@@ -1,6 +1,13 @@
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+<div style="
+    background-color: #F4F4F7;
+    background-image: url('https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px 280px;"
+align="left">
+
 # D O C K E R - ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png)
-<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
+
 
 * Dicionary
 <p><strong>FROM</strong> - 
