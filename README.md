@@ -1,10 +1,8 @@
-<div style="
-    background-color: #F4F4F7;
-    background-image: url('https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png');
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 200px 280px;"
-align="left">
+<style>
+img {
+  opacity: 0.5;
+}
+</style>
 
 <img src="https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png" alt="Forest" width="170" height="100">
 
