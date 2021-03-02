@@ -41,6 +41,12 @@ Define volumes que devem ser definidos
 Define o seu diretório corrente
 
 ## COMMANDS TO WORK WITH IMAGES DOCKER
+
+* Container always restart
+```
+docker update --restart=unless-stopped idDocker
+```
+
 * Baixa a imagem para a máquina local
 ```
 docker pull <NOME_IMAGEM>
