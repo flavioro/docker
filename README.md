@@ -2,6 +2,17 @@
 
 <!--- ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png) -->
 
+### Description🔗 Return information on Docker objects
+```
+docker inspect idContainer
+```
+
+### Get an instance’s log path
+```
+docker inspect --format='{{.LogPath}}' $INSTANCE_ID
+```
+Reference https://docs.docker.com/engine/reference/commandline/inspect/
+
 * Dicionary
 <p><strong>FROM</strong> - 
 Inicializa o build de uma imagem a partir de uma imagem base
