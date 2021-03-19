@@ -2,6 +2,20 @@
 
 <!--- ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png) -->
 
+### How to backup Docker Containers
+Step 1: 
+```
+docker commit -p container-ID backup-name
+```
+Step 2: 
+```
+docker save -o backup-name.tar backup-name
+```
+Step 3; move the tar file to your backup storage
+
+Reference https://www.youtube.com/watch?v=MrKkSduReN0
+
+
 ### Description🔗 Return information on Docker objects
 ```
 docker inspect idContainer
