@@ -15,6 +15,12 @@ Step 3; move the tar file to your backup storage
 
 Reference https://www.youtube.com/watch?v=MrKkSduReN0
 
+### Step 4: Run the Restored Docker Container
+To run the Container associated with the restored image, you can use the Docker Run command. Using the ls command, you will find the files intact inside the Docker Container.
+```
+docker run -it my-backup:latest
+```
+Reference https://www.geeksforgeeks.org/restoring-a-docker-container/
 
 ### Description🔗 Return information on Docker objects
 ```
