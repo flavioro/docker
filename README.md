@@ -7,6 +7,13 @@
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' nameContainer
 Or
 docker inspect postgres | grep "IPAddress"
+Or
+docker exec id-Container cat /etc/hosts
+```
+
+### Show logs do container
+```
+docker logs idContainr -f
 ```
 
 ### Show info details about container
