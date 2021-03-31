@@ -2,6 +2,24 @@
 
 <!--- ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png) -->
 
+### How to change the docker image installation directory?
+### directory destination /mnt/disks/docker
+```
+sudo mkdir -p /etc/systemd/system/docker.service.d
+sudo vim /etc/systemd/system/docker.service.d/docker-storage.conf
+```
+### Put in file docker-storage.conf
+```bat
+[Service]
+ExecStart=
+ExecStart=/usr/bin/dockerd -H fd:// --data-root="/mnt/disks/docker"
+```
+### Apply configuration
+```
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
+
 ### How to backup Docker Containers
 Step 1: 
 ```
