@@ -2,6 +2,18 @@
 
 <!--- ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png) -->
 
+### Show IP from container
+```
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' nameContainer
+Or
+docker inspect postgres | grep "IPAddress"
+```
+
+### Show info details about container
+```
+docker inspect
+```
+
 ### How to change the docker image installation directory?
 ### directory destination /mnt/disks/docker
 ```
