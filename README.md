@@ -2,6 +2,11 @@
 
 <!--- ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png) -->
 
+### Where are Docker Images Stored?
+```
+sudo docker info
+```
+
 ### Show IP from container
 ```
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' nameContainer
