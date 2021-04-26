@@ -182,7 +182,9 @@ docker push flavioro/temperature-conversion:v1
 ``` docker run --name mongodb -p 27017:27017 -d -t mongo```
 
 ``` docker run --name redisdb -p 6379:6379 -d -t redis:alpine```
-
+```
+docker run --name redis_debts -p 6379:6379 -d redis:alpine --requirepass docker
+```
 ** Run container and release typing use -d**
 ``` docker container -d ngnix ```
 
