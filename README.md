@@ -2,6 +2,8 @@
 
 <!--- ![](https://miro.medium.com/max/336/0*rmv6pZTW2hfP2XYd.png) -->
 
+### Installatin docker for Linux https://docs.docker.com/engine/install/ubuntu/
+
 ### Where are Docker Images Stored?
 ```
 sudo docker info
